@@ -1,14 +1,17 @@
 import React, { Component } from 'react';
 
+import Footer from '../atoms/Footer';
+import Header from '../atoms/Header';
+
 class MainLayout extends Component {
 
   render() {
     const { children } = this.props;
     return (
       <div>
-        Header
+        <Header />
         {children}
-        Footer
+        <Footer />
       </div>
     );
   }

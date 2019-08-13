@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --open",
+    "start:server": "json-server src/data/data.json",
     "build": "rimraf dist && parcel build index.html"
   },
   "keywords": [
@@ -14,6 +15,7 @@
   "author": "TJonas",
   "license": "ISC",
   "dependencies": {
+    "json-server": "^0.15.0",
     "react": ">=15",
     "react-dom": "^16.8.0",
     "react-router-dom": "^5.0.1",

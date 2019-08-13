@@ -1,7 +1,9 @@
 import { compose, withProps } from 'recompose';
 
-import ProductPage from '../../templates';
+import withProduct from '../../queries/withProduct';
+import Product from '../../templates/Product';
 
 export default compose(
-  //withProps(props => ({ productId: props.match.params.productId })),
-)(ProductPage);
+  withProps(props => ({ productId: props.match.params.id })),
+  withProduct,
+)(Product);

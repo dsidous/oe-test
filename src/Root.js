@@ -19,7 +19,7 @@ const MatchWithMainLayout = ({ exact, path, component: Component }) => (
 const Root = () => (
   <Router>
     <Switch>
-      <MatchWithMainLayout exact path="/product/:id" component={ProductPage} />
+      <MatchWithMainLayout exact path="/v1/product/:id" component={ProductPage} />
     </Switch>
   </Router>
 );

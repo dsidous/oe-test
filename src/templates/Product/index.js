@@ -1,9 +1,16 @@
 import React from 'react';
 
-const ProductPage = ({ productId }) => {
+const ProductPage = ({
+  id,
+  title,
+  subtitle,
+  price,
+  description,
+  specs,
+}) => {
   return (
     <div>
-      Product Id: {productId}
+      Product title: {title}
     </div>
   );
 };

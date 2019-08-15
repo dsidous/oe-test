@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "parcel index.html --open",
-    "start:server": "json-server src/data/data.json",
+    "start:server": "json-server --watch src/data/data.json",
     "build": "rimraf dist && parcel build index.html"
   },
   "keywords": [

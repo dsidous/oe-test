@@ -2,7 +2,39 @@
   "products": [
     {
       "id": "1",
+      "image": "bulb.png",
       "title": "Energy saving light bulb",
+      "subtitle": "25 W // Packet of 4",
+      "price": "12.99",
+      "description": "Available in 7 watts, 9 watts, 11 watts Spiral Light bulb in B22, bulb switches on instantly, no wiaint around warm start and ficker free features...",
+      "specs": [
+        {
+          "key": "Brand",
+          "value": "Philips"
+        },
+        {
+          "key": "Item weight",
+          "value": "77g"
+        },
+        {
+          "key": "Dimensions",
+          "value": "12.6x6.2x6.2cm"
+        },
+        {
+          "key": "Item model number",
+          "value": "E27 ES"
+        },
+        {
+          "key": "Colour",
+          "value": "Cool daylight"
+        }
+      ],
+      "performance": "graph.png"
+    },
+    {
+      "id": "2",
+      "image": "bulb.png",
+      "title": "Energy saving light bulb - 2",
       "subtitle": "25 W // Packet of 4",
       "price": "12.99",
       "description": "Available in 7 watts, 9 watts, 11 watts Spiral Light bulb in B22, bulb switches on instantly, no wiaint around warm start and ficker free features...",

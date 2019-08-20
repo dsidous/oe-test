@@ -41,7 +41,7 @@ const ProductPage = ({
       <ProductName title={title} light first />
       <ProductPrice />
       <ProductDesc title="Description" copy={description} light />
-      <ProductSpecs title="Specification" />
+      <ProductSpecs title="Specification" data={specs} />
       <ProductPerf title="Performance" graph={performance} />
     </>
   );

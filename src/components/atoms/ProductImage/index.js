@@ -1,17 +1,6 @@
 import React from 'react';
-import { createUseStyles } from 'react-jss';
 
-const useStyles = createUseStyles(theme => ({
-  image: {
-    padding: {
-      left: theme.spacing.unit * 2,
-      right: theme.spacing.unit * 2,
-    },
-    '& img': {
-      width: '100%',
-    },
-  },
-}));
+import useStyles from './styles';
 
 const ProductImage = ({ src }) => {
   const classes = useStyles();

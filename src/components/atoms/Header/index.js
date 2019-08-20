@@ -1,7 +1,7 @@
 import React from 'react';
 
 import logo from '../../../images/logo.png';
-import { useStyles } from './styles';
+import useStyles from './styles';
 
 const Header = () => {
   const classes = useStyles();

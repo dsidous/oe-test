@@ -1,16 +1,7 @@
 import React from 'react';
-import { createUseStyles } from 'react-jss';
 
 import { propTypes } from './props';
-
-const useStyles = createUseStyles(theme => ({
-  title: {
-    color: '#fff',
-    fontSize: '2rem',
-    margin: 0,
-    padding: 0,
-  },
-}));
+import useStyles from './styles';
 
 const ProductTitle = ({ title }) => {
   const classes = useStyles();

@@ -1,7 +1,7 @@
 import React from 'react';
 import { createUseStyles } from 'react-jss';
 
-import { getImageUrl } from '../../utils';
+import { getImageUrl } from '../../../utils';
 
 import ProductImage from '../../atoms/ProductImage';
 import ProductName from '../../molecules/Product/Name';

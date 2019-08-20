@@ -2,7 +2,7 @@ import React from 'react';
 
 import Section from '../../../atoms/Section';
 import SectionTitle from '../../../atoms/SectionTitle';
-import { getImageUrl } from '../../../utils';
+import { getImageUrl } from '../../../../utils';
 
 const Perf = ({ title, graph }) => {
   const graphImg = getImageUrl(graph);

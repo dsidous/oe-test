@@ -5,7 +5,7 @@ import { getImageUrl } from '../../../utils';
 
 import ProductImage from '../../atoms/ProductImage';
 import ProductName from '../../molecules/Product/Name';
-import ProductPrice from '../../molecules/Product/Price';
+import ProductPrice from '../../organisms/ProductPrice';
 import ProductDesc from '../../molecules/Product/Description';
 import ProductSpecs from '../../molecules/Product/Specs';
 import ProductPerf from '../../molecules/Product/Perf';

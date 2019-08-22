@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 import Footer from '../atoms/Footer';
-import Header from '../atoms/Header';
+import Header from '../molecules/Header';
 
 class MainLayout extends Component {
 

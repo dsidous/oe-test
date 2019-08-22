@@ -10,11 +10,9 @@ const useStyles = createUseStyles(theme => ({
       right: theme.spacing.unit * 2,
     },
   },
-  logo: {
-    maxWidth: '50%',
-    '& img': {
-      width: '100%',
-    },
+  logoWrapper: {
+    maxWidth: '70%',
+    padding: `${theme.spacing.unit}px 0`,
   },
 }));
 

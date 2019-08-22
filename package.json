@@ -15,6 +15,7 @@
   "author": "TJonas",
   "license": "ISC",
   "dependencies": {
+    "@svgr/parcel-plugin-svgr": "^4.3.2",
     "json-server": "^0.15.0",
     "normalize.css": "^8.0.1",
     "prop-types": "^15.7.2",

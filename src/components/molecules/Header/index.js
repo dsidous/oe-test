@@ -1,7 +1,8 @@
 import React from 'react';
 
-import Logo from '../../atoms/Logo';
+import Logo from '../../../images/logo.svg';
 import useStyles from './styles';
+import MyMenu from '../../../images/icon-menu.svg';
 
 const Header = () => {
   const classes = useStyles();
@@ -11,7 +12,7 @@ const Header = () => {
         <Logo />
       </div>
       <div className={classes.menu}>
-        menu
+        <MyMenu />
       </div>
     </div>
   );

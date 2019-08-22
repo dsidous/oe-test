@@ -12,7 +12,8 @@ import ProductPerf from '../../molecules/Product/Perf';
 
 const useStyles = createUseStyles(theme => ({
   '@global body': {
-    backgroundColor: theme.backgroundPrimary,
+    backgroundColor: theme.colors.dark.bgcolor,
+    color: theme.colors.light.color,
     fontFamily: theme.mainFont,
   },
 }));

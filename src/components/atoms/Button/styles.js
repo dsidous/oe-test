@@ -1,6 +1,6 @@
 import { createUseStyles } from 'react-jss';
 
-const useStyles = createUseStyles({
+const useStyles = createUseStyles(theme => ({
   buttonPrimary: {
     display: 'block',
     width: '100%',
@@ -8,7 +8,7 @@ const useStyles = createUseStyles({
     fontSize: '1.6rem',
     fontWeight: 'bold',
     lineHeight: '1.8rem',
-    color: '#fff',
+    color: theme.colors.light.color,
     textAlign: 'center',
     textDecoration: 'none',
     backgroundColor: '#6d087c',
@@ -20,6 +20,6 @@ const useStyles = createUseStyles({
   buttonSecondary: {
 
   },
-});
+}));
 
 export default useStyles;

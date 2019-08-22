@@ -11,7 +11,6 @@ const useStyles = createUseStyles(theme => ({
   },
   row: {
     borderBottom: '1px solid #92abd036',
-    color: '#fff',
     display: 'flex',
     fontSize: '.9rem',
     marginTop: 0,

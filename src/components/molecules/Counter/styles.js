@@ -8,14 +8,13 @@ const useStyles = createUseStyles(theme => ({
   },
   value: {
     alignSelf: 'flex-end',
-    color: '#fff',
     fontSize: '2rem',
     fontWeight: 'bold',
     textAlign: 'center',
     width: '40px',
   },
   label: {
-    color: '#35598d',
+    color: theme.colors.dark.color,
     fontSize: '.8rem',
     fontWeight: 'bold',
     gridColumn: '1/span 3',

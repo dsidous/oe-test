@@ -2,10 +2,10 @@ import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles(theme => ({
   fabPrimary: {
-    backgroundColor: '#35598d',
+    backgroundColor: theme.colors.dark.color,
     border: 'none',
     borderRadius: theme.spacing.unit,
-    color: '#fff',
+    color: theme.colors.light.color,
     fontSize: '1.5rem',
     fontWeight: 'bold',
     padding: {

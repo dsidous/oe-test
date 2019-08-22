@@ -1,7 +1,15 @@
 const theme = {
   mainFont: 'Montserrat, Arial, Helvetica, sans-serif',
-  backgroundPrimary: '#040D28',
-  backgroundSecondary: '#081a44',
+  colors: {
+    dark: {
+      color: '#35598d',
+      bgcolor: '#040D28',
+    },
+    light: {
+      color: '#ffffff',
+      bgcolor: '#081a44',
+    },
+  },
   spacing: {
     unit: 8,
   },

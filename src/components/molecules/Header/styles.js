@@ -2,7 +2,7 @@ import { createUseStyles } from 'react-jss';
 
 const useStyles = createUseStyles(theme => ({
   header: {
-    backgroundColor: theme.backgroundPrimary,
+    backgroundColor: theme.colors.dark.bgcolor,
     display: 'flex',
     justifyContent: 'space-between',
     padding: {

@@ -7,7 +7,6 @@ const useStyles = createUseStyles(theme => ({
     marginBottom: theme.spacing.unit * 2,
   },
   price: {
-    color: '#fff',
     fontSize: '2.2rem',
     fontWeight: 'bold',
     lineHeight: '2.2rem',

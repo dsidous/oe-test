@@ -28,7 +28,7 @@ const ProductPage = ({
   performance,
   loading,
 }) => {
-  const classes = useStyles();
+  useStyles();
   const imgUrl = getImageUrl(image);
 
   if (loading) {
@@ -38,8 +38,8 @@ const ProductPage = ({
   return (
     <>
       <ProductImage src={imgUrl} />
-      <ProductName title={title} light first />
-      <ProductPrice />
+      <ProductName title={title} subtitle={subtitle} light first />
+      <ProductPrice price={price} />
       <ProductDesc title="Description" copy={description} light />
       <ProductSpecs title="Specification" data={specs} />
       <ProductPerf title="Performance" graph={performance} />
